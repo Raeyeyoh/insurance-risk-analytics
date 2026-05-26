@@ -1,0 +1,5 @@
+outs:
+- md5: d937c128f90cdcbf52b5a281d45ccad8
+  size: 646
+  hash: md5
+  path: insurance-data-cleaned.csv
