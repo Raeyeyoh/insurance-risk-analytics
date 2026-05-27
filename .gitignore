@@ -2,12 +2,10 @@ venv/
 __pycache__/
 .ipynb_checkpoints/
 
-data/
+data/*
+!data/*.dvc
+!data/.gitignore
 
 *.csv
-*.xlsx
-*.parquet
 
 .dvc/cache/
-
-.env
