@@ -7,7 +7,8 @@ df = df.drop_duplicates()
 df = df.dropna()
 
 df.to_csv(
-    "data/insurance-data-cleaned.csv",
+    "../data/insurance-data-cleaned.csv",
     sep="|",
     index=False
 )
+print(df.columns.tolist())
